@@ -131,7 +131,7 @@ li {
     display: flex;
     gap: 10px;
     padding-top: 50px;
-    font-family: "Chilanka", cursive;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .linha-pqcriamos {
@@ -264,7 +264,7 @@ li {
 
 .imagem-revista2, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13, .imagem-ideias-em-acao2024 {
     width: 400px;
-    height: 500px;
+    height: 565px;
 }
 
 .linha {
@@ -341,8 +341,12 @@ li {
 /* FOOTER */
 
 .informacoes-escola, .copyright-escola {
-    font-family: "Chilanka", cursive;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 0px;
+}
+
+.copyright-escola {
+    padding: 10px;
 }
