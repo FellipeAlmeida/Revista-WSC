@@ -1,9 +1,5 @@
 @media (max-width: 1024px) {
 
-    body {  
-        font-family: Arial, Helvetica, sans-serif;
-    }
-
     .elementosPqCriamos {
         padding: 0 20px;
     }
@@ -64,6 +60,14 @@
     footer {
         text-align: center;
     }
+
+    .elementosPqCriamos div {
+        font-family: "Chilanka", cursive;
+    }
+
+    footer {
+        font-family: "Chilanka", cursive;
+    }
 }
 
 @media (max-width: 768px){
@@ -109,6 +113,14 @@
     .navegacao-auto {
         width: 300px;
         margin-top: 420px;
+    }
+
+    .elementosPqCriamos div {
+        font-family: "Chilanka", cursive;
+    }
+
+    footer {
+        font-family: "Chilanka", cursive;
     }
 
 }
@@ -188,5 +200,12 @@
         margin-bottom: 50px;
     }
     
+    .elementosPqCriamos div {
+        font-family: "Chilanka", cursive;
+    }
+
+    footer {
+        font-family: "Chilanka", cursive;
+    }
 
 }
