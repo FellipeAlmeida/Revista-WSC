@@ -1,0 +1,182 @@
+@media (max-width: 1024px) {
+
+    .elementosPqCriamos {
+        padding: 0 20px;
+    }
+
+    .titulo-inicio {
+        width: 300px;
+    }
+
+    .waltinho {
+        width: 300px;
+        height: 400px;
+    }
+
+    .aviao-papel {
+        width: 45px;
+    }
+
+    .linha-inicio {
+        margin-top: 200px;
+    }
+
+    #pq-criamos {
+        margin-top: 100px;
+    }
+
+    .linha-pqcriamos {
+        margin-top: 250px;
+    }
+
+    .revistas {
+        justify-content: space-between; 
+        margin-top: 20px;
+        padding: 0 50px;
+    }
+
+    .imagem-ideias-em-acao1, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13, .imagem-ideias-em-acao2024 {
+        width: 400px;
+        height: 485px;
+    }
+
+    .navegacao-manual {
+        margin-top: 90px;
+    }
+    
+    .navegacao-auto {
+        margin-top: 490px;
+    }
+
+    .linha-conheca-revista {
+        margin-bottom: 50px;
+        margin-top: -35px;
+    }
+
+    .informacoes-escola {
+        margin-bottom: 10px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 0 20px 20px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .linha-pqcriamos {
+        margin-top: 225px;
+    }
+
+    .elementosPqCriamos {
+        padding: 0 20px;
+    }
+
+    .elementosPqCriamos div {
+        text-align: start;
+    }
+
+    .slider {
+        margin: 0 auto;
+        width: 250px;
+        height: 565px;
+        overflow: hidden;
+    }
+
+    .slide img {
+        width: 250px;
+        height: auto;
+    }
+
+    .imagem-ideias-em-acao1, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13, .imagem-ideias-em-acao2024 {
+        width: 250px;
+        height: auto;
+    }
+
+    .navegacao-manual {
+        width: 250px;
+        margin-top: -50px;
+    }
+
+    .navegacao-auto {
+        width: 250px;
+        margin-top: 350px;
+    }
+
+}
+
+@media (max-width: 425px){
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px;        
+    }
+
+    .menu {
+        padding: 10px;
+    }
+
+    .elementos-inicio {
+        flex-direction: column;
+    }
+
+    .titulo-inicio {
+        width: 200px;
+        height: auto;
+        margin: 0px;
+    }
+    
+    .waltinho {
+        width: 200px;
+        height: auto;
+        margin: 0px;
+        margin-top: 50px;
+    }
+
+    .elementos-inicio {
+        padding: 0 20px;
+    }
+
+    .linha-inicio {
+        margin-top: 185px;
+    }
+
+    #pq-criamos {
+        margin-top: 150px;
+    }
+
+    .titulo-pqcriamos {
+        text-align: center;
+    }
+
+    .aviao-papel {
+        width: 50px;
+        height: 50px;
+    }
+
+    .linha-pqcriamos {
+        margin-top: 40px;
+    }
+
+    .revistas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .revista2023 {
+        margin-top: 30px;
+    }
+
+    .revista2023 p {
+        padding: 0 50px;
+    }
+
+    .revista2024 {
+        margin-bottom: 50px;
+    }
+
+    footer {
+        padding: 0 40px;
+    }
+}

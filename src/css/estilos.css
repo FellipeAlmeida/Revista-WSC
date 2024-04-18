@@ -1,0 +1,347 @@
+
+/* CABECALHO */
+body {
+    background: rgb(68,162,90);
+    background: linear-gradient(155deg, rgba(68,162,90,1) 0%, rgba(15,107,53,1) 30%, #07401f 100%); 
+    color: #fff;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul hr {
+    height: 10px;
+    color: #fff
+}
+
+.logo-wsc {
+    width: 80px;
+    height: 80px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+.menu a:hover {
+    color: #EABE23;
+    transition: all 0.3s ease-in;
+}
+
+.menu hr {
+    margin-top: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px 80px;
+}
+
+.elementos-cabecalho {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 30px;
+}
+
+/* SECAO INICIO */
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementos-inicio {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.linha-inicio {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+    margin-top: 170px;
+}
+
+.titulo-inicio {
+    width: 500px;
+    display: flex;
+    margin-top: 100px;
+}
+
+.revista {
+    font-size: 70px;
+}
+
+.waltinho {
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+}
+
+/* SECAO PQCRIAMOS */
+
+#pq-criamos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 40px;
+}
+
+.titulo-pqcriamos, .titulo-conheca-revista, .titulo-informacoes {
+    display: flex;
+    justify-content: center;
+    color: #EABE23;
+    font-family: "Chewy";
+    font-size: 40px;
+}
+
+.elementosPqCriamos {
+    display: flex;
+    flex-direction: column;
+}
+
+.aviao-papel {
+    width: 50px;
+}
+
+.elementosPqCriamos div {
+    display: flex;
+    gap: 10px;
+    padding-top: 50px;
+    font-family: "Chilanka", cursive;
+}
+
+.linha-pqcriamos {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+    margin-top: 315px;
+}
+
+/* SECAO CONHECA A REVISTA */
+
+#conheca-revista {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 50px 0 0 0;
+}
+
+.revistas {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+
+.imagem-ideias-em-acao1, .imagem-ideias-em-acao2024, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13 {
+    width: 400px;
+    height: 565px;
+}
+
+.slider {
+    margin: 0 auto;
+    width: 400px;
+    height: 565px;
+    overflow: hidden;
+}
+
+.slides {
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 25%;
+    position: relative;
+    transition: 1s;
+}
+
+.slide img {
+    width: 400px;
+}
+
+.navegacao-manual {
+    position: absolute;
+    width: 400px;
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.manual-btn {
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:hover {
+    background-color: #fff;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .first {
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first {
+    margin-left: -125%;
+}
+
+#radio7:checked ~ .first {
+    margin-left: -150%;
+}
+
+#radio8:checked ~ .first {
+    margin-left: -175%;
+}
+#radio9:checked ~ .first {
+    margin-left: -200%;
+}
+
+#radio10:checked ~ .first {
+    margin-left: -225%;
+}
+
+#radio11:checked ~ .first {
+    margin-left: -250%;
+}
+
+#radio12:checked ~ .first {
+    margin-left: -275%;
+}
+
+#radio13:checked ~ .first {
+    margin-left: -300%;
+}
+
+.imagem-revista2, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13, .imagem-ideias-em-acao2024 {
+    width: 400px;
+    height: 500px;
+}
+
+.linha {
+    display: flex;
+    justify-content: center;
+}
+
+.linha-conheca-revista {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 40%;
+    margin-bottom: 50px;
+    margin-top: 52px;
+}
+
+.navegacao-auto div {
+    border: 2px solid rgb(31, 223, 76);
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navegacao-auto {
+    position: absolute;
+    width: 400px;
+    margin-top: 570px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#radio1:checked ~ .navegacao-auto .auto-btn1, #radio2:checked ~ .navegacao-auto .auto-btn2, #radio3:checked ~ .navegacao-auto .auto-btn3, #radio4:checked ~ .navegacao-auto .auto-btn4, #radio5:checked ~ .navegacao-auto .auto-btn5, #radio6:checked ~ .navegacao-auto .auto-btn6, #radio7:checked ~ .navegacao-auto .auto-btn7, #radio8:checked ~ .navegacao-auto .auto-btn8, #radio9:checked ~ .navegacao-auto .auto-btn9, #radio10:checked ~ .navegacao-auto .auto-btn10, #radio11:checked ~ .navegacao-auto .auto-btn11, #radio12:checked ~ .navegacao-auto .auto-btn12, #radio13:checked ~ .navegacao-auto .auto-btn13{
+    background-color: #fff;
+}
+
+.revista2023 p, .revista2024 p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.elementos-revista2023, .elementos-revista2024 {
+    display: flex;
+    align-items: center;
+}
+
+.ideias-em-acao-btn {
+    text-decoration: none;
+    color: #ffc800;
+    transition: all 0.3s ease-in;
+}
+
+.ideias-em-acao-btn:hover {
+    color: rgb(31, 223, 76);
+    transition: all 0.3s ease-in;
+}
+
+#btnAvancarImagem, #btnVoltarImagem, #btnAvancarImagem2024, #btnVoltarImagem2024 {
+    display: flex;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    transition: all 0.3s ease-in;
+}
+
+#btnAvancarImagem:hover, #btnVoltarImagem:hover, #btnAvancarImagem2024:hover, #btnVoltarImagem2024:hover {
+    transition: all 0.3s ease-in;
+    color: #bcbcbc;
+}
+
+/* FOOTER */
+
+.informacoes-escola, .copyright-escola {
+    font-family: "Chilanka", cursive;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
