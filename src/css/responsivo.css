@@ -1,5 +1,9 @@
 @media (max-width: 1024px) {
 
+    body {  
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     .elementosPqCriamos {
         padding: 0 20px;
     }
@@ -59,11 +63,14 @@
 
     footer {
         text-align: center;
-        padding: 0 20px 20px;
     }
 }
 
 @media (max-width: 768px){
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
     .linha-pqcriamos {
         margin-top: 225px;
@@ -79,34 +86,39 @@
 
     .slider {
         margin: 0 auto;
-        width: 250px;
+        width: 300px;
         height: 565px;
         overflow: hidden;
     }
 
     .slide img {
-        width: 250px;
+        width: 300px;
         height: auto;
     }
 
     .imagem-ideias-em-acao1, .imagem-ideias-em-acao2, .imagem-ideias-em-acao3, .imagem-ideias-em-acao4, .imagem-ideias-em-acao5, .imagem-ideias-em-acao6, .imagem-ideias-em-acao7, .imagem-ideias-em-acao8, .imagem-ideias-em-acao9, .imagem-ideias-em-acao10, .imagem-ideias-em-acao11, .imagem-ideias-em-acao12, .imagem-ideias-em-acao13, .imagem-ideias-em-acao2024 {
-        width: 250px;
+        width: 300px;
         height: auto;
     }
 
     .navegacao-manual {
-        width: 250px;
-        margin-top: -50px;
+        width: 300px;
+        margin-top: 20px;
     }
 
     .navegacao-auto {
-        width: 250px;
-        margin-top: 350px;
+        width: 300px;
+        margin-top: 420px;
     }
 
 }
 
 @media (max-width: 425px){
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
     .cabecalho {
         flex-direction: column;
         align-items: center;
@@ -175,8 +187,6 @@
     .revista2024 {
         margin-bottom: 50px;
     }
+    
 
-    footer {
-        padding: 0 40px;
-    }
 }
